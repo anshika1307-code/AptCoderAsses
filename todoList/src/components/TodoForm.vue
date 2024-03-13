@@ -1,4 +1,4 @@
-<!-- src/components/TodoForm.vue -->
+
 <template>
   <div class="flex">
     <div class="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-cyan-300 py-1.5">

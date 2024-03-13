@@ -19,7 +19,7 @@
     <h1 class="custom-heading pt-5 pb-3" v-if="hasCompletedTasks">Completed Todos</h1>
     <ul>
       <li v-for="(todo, index) in completedTodos" :key="index" class="todo-card">
-        <div class="bg-cyan-200 rounded-lg p-2 border border-black mb-2 ">
+        <div class="bg-cyan-200 rounded-lg p-2 border border-black mb-2" >
           <input type="checkbox" class="m-0 p-0 mr-3 text-4xl w-6 h-6 " v-model="todo.completed"
              />
           <strong class="text-2xl">{{ todo.title }}</strong>
@@ -72,17 +72,16 @@ export default {
 </script>
 
 <style scoped>
-/* Import the Google Fonts style */
+
 @font-face {
   font-family: 'Gochi Hand';
   src: url('https://fonts.googleapis.com/css?family=Gochi+Hand');
-  /* Add other font properties if needed */
+  
 }
 
 .custom-heading {
   @apply font-bold text-2xl text-center;
   font-family: 'Gochi Hand', cursive;
-  /* Adjust font size as needed */
-  /* Add other heading styles if needed */
+  
 }
 </style>
